@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Hello, world!</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-cont">
+        <div class="logo">
+          <div class="logo-nome">IdWall</div>
+        </div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav-lista">
+        <li>
+            <i class='bx bx-search' ></i>
+            <input type="text" placeholder="Search...">
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links-nome">Protocolo</span>
+          </a>
+          
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-folder'></i>
+            <span class="links-nome">Documentos</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user'></i>
+            <span class="links-nome">Usuario</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-outline'></i>
+            <span class="links-nome">Fontes</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cabinet'></i>
+            <span class="links-nome">Matrizes</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-check-shield'></i>
+            <span class="links-nome">Regras</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links-nome">Atributos</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-desktop'></i>
+            <span class="links-nome">Monitor</span>
+          </a>
+
+        </li>
+
+      </ul>
+      <div class="profile-cont">
+        <div class="profile">
+          <div class="profile-detalis">
+            <div class="nome-job">
+              <div class="job">IdWall</div>
+            </div>
+          </div>
+          <i class='bx bx-log-out' id="log-out"></i>
+        </div>
+      </div>
+    </div>
+    <div class="home-cont">
+      <div class="text">Usuários</div>
+      <div class="filtro-home">
+        <input type="text" id="imput-Filtro" placeholder="Filtro...">
+        <button type="button" id="btnFiltro">Filtrar</button>
+      </div>
+      <div class="table-home">
+        <table>
+          <tr class="line-1">
+            <td id="id-table">#</td>
+            <td id="cliente-table">Cliente</td>
+            <td id="prot-table">Protodolos</td>
+            <td id="email-table">Email</td>
+            <td id="acesso-table">Acesso</td>
+            <td id="back-table">BackOffice</td>
+            <td id="network-talbe">IDnetwork</td>
+            <td id="acao-table">Ações</td>
+          </tr>
+          <tr>
+            <td>1026</td>
+            <td>Vinicius</td>
+            <td>0</td>
+            <td>email.com</td>
+            <td>Sim</td>
+            <td>Não</td>
+            <td>Não</td>
+            <td><button type="button" id="btnAcao">Logar</button></td>
+          </tr>
+          <tr>
+            <td>761</td>
+            <td>Barbosa</td>
+            <td>0</td>
+            <td>email.com</td>
+            <td>Sim</td>
+            <td>Sim</td>
+            <td>Sim</td>
+            <td><button type="button" id="btnAcao">Logar</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
